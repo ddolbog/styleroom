@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+.브랜드랩 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F7FA;
+    width: 100%;
+    padding: 1px;
+}
+
+
+.메인이모티콘 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.상품정보>h4 {
+    color: red;
+}
+
+.관심상품 {
+    background-color: black;
+    color: white;
+    width: 364px;
+    height: 41px;
+    text-align: center;
+    padding: 0.1px;
+    width: 80%;
+    margin: auto;
+}
+
+.관심상품>p {
+    margin-top: 8px;
+}
+
+.배송동의 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.옵션 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.수량 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.수량>select {
+    margin: auto;
+}
+
+.문의 {
+    text-align: center;
+}
+
+.배송동의>select {
+    width: 208px;
+    height: 26px;
+}
+
+.옵션>select {
+    width: 208px;
+    height: 26px;
+}
+
+.수량 {
+    
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.메뉴 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.메뉴라인박스 {
+    width: 62.61px;
+    height: 0.79px;
+    background-color: black;
+}
+
+.글제목 {
+    text-align: center;
+}
+
+.글내용 {
+    width: 355px;
+    text-align: center;
+    margin: auto;
+}
+
+.구매버튼 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.네비게이션바 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.글하단{
+    margin-top: 48px;
+}
+
+.글하단>p {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.container>오픈이미지 {
+    margin: auto;
+    width: 100%;
+}
